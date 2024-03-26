@@ -12,16 +12,15 @@ const user = {
 // user.username ="sam",
 // user.welcomeMessege();
 
-// console.log(this);
+// console.log(this); // {} empty object
 
-
-// Browser ke andar sabse jada "window" object hain
+// Browser ke andar sabse jada "window" object hain , if we run console.log(this); then we will get "window" object
 
 
 // function chai() {
 //     let name = "surya"
 //     // console.log(this.username);
-//     console.log(this.name);
+//     console.log(this.name); it will show undefined, this keyword works only inside the object
 // }
 
 // chai();
